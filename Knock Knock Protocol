@@ -56,11 +56,11 @@ S:	230	Server replies: "KINGTUTKEY FRIED CHICKEN!"
 	
 		Still as part of 230, server says: "Good bye." and breaks connection.
 
+S:      888	If client does not respond within 2 minutes of server prompts, server says "System timeout." and breaks connection.
 ---------------------------------------------------------------------------------------------------------------------------------
 
 This is a simple starting point that can be used as a road map to get the protocol up and running.
 There is plenty of room for additional features, but getting this one-joke server functioning would be sufficient for the assignment I think.
 At least as a starting point, to layer on once this is functional.
 Server should always respond immediately once it receives a code from the client...
-Could layer on a timeout (888) from the server if the client does not respond with X minutes of any server prompts.
 		
